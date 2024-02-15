@@ -18,6 +18,6 @@ public class APowerN {
 			ans*=A;
 			--N;
 		}
-		System.out.println("APowerN = " + ans);
+		System.out.println("APowerN = " + ans); 
 	}
 }
