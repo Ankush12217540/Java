@@ -1,4 +1,4 @@
-Write a class PrintAlphabet with a main method. Write a logic to print all the English alphabets from A to Z.
+ Write a class PrintAlphabet with a main method. Write a logic to print all the English alphabets from A to Z.
 
 Hint: Use for loop to iterate over the characters from 'A' to 'Z'.
 
