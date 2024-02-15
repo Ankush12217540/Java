@@ -16,7 +16,7 @@ public class FactorialCalculator {
 		//Fill in the missing code using the for loop
 		int i=1;
 		while(i<=n){
-			factorial*=i;
+			factorial*=i; 
 			i++;
 		}
 		
