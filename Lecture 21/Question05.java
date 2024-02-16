@@ -11,7 +11,7 @@ public class ElementCheck {
 		//Write your code here
 		if(arr1[0]==arr2[0] || arr1[arr1.length-1]==arr2[arr2.length-1]){
 			return true;
-		}else{
+		}else{ 
 			return false;
 		}
 	}
