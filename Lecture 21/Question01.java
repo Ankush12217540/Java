@@ -1,13 +1,13 @@
 Write a class SumOfElements with a public method sum that takes one parameter arr of type int[] and returns the sum of all elements in arr. The return type of sum should be long.
 
 Assumptions:
-arr is never null
+arr is never null 
 return 0 in case arr is empty
 Here is an example:
 Cmd Args : 3 5 3 2 0
 Sum of all elements in the given array is : 13
 Note how the return type of the function is long and not int. The reason for this is to overcome errors due to data overflow while adding multiple int values.
-
+ 
 package q11046;
 public class SumOfElements {
 	
