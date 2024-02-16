@@ -2,7 +2,7 @@
 L21
 Arrays - Problem Solving - 1
 Q. No : 11048
-Problem solving with Array 
+Problem solving with Array  
 Write a class ElementCheck with a public method checkFirstOrLast that takes two parameters one is arr of type int[] and second one is arg of type int and returns true if the arg is first or last element in the arr else returns false. The return type of checkFirstOrLast is boolean.
 
 Assumption:
