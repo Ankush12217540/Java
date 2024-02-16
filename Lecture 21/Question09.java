@@ -11,7 +11,7 @@ Sum of all positive elements in the array is : 58
 
 package q11057;
 
-public class SumOfElements {
+public class SumOfElements { 
 	/**
 	 * Compute sum of all +ve elements in the array excluding -ve numbers
 	 * 
