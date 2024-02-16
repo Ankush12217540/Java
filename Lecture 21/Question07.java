@@ -3,7 +3,7 @@ Write a class ElementCheck with a public method elementFinder that takes one par
 Assumptions:
 arr is never null
 Here are examples for your understanding:
-Cmd Args : 33 25 12 5 33
+Cmd Args : 33 25 12 5 33 
 true
 Cmd Args : 1 2 3 4
 false
