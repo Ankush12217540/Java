@@ -7,11 +7,11 @@ Cmd Args : 32 56 85 1
 Array in reverse order is : 
 1
 85
-56
+56 
 32
 
 package q11047;
-public class ReversePrint {
+public class ReversePrint { 
 	/**
 	 * write a logic to find the array of elements in reverse order.
 	 * 
