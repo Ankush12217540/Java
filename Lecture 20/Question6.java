@@ -12,7 +12,7 @@ Compare the key element with the second element a[1], if it is matched then stop
 Continue this process until a match is found (or) until all the elements have been searched.
 Let us consider an example of array numbers "50 20 40 10 80", and the key element is to find is 10.
 
-Search - 1 : 
+Search - 1 :  
 Compare 10 with value of a[0] i.e., 50, both are not equal so repeat the same process with a[1].
 Search - 2 : 
 Compare 10 with value of a[1] i.e., 20, both are not equal so repeat the same process with a[2].
