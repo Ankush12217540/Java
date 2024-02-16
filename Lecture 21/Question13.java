@@ -5,7 +5,7 @@ arr is never null
 arr length is even it should print the middle two numbers
 arr length is odd it prints the middle element
 Here are examples for your understanding:
-Cmd Args : 1 6 3 5 4
+Cmd Args : 1 6 3 5 4 
 3
 Cmd Args : 3 2 1 6 5 4
 1
