@@ -2,7 +2,7 @@ Write a class ReversePrint with a public method reversePrint that takes one para
 
 Assumptions:
 arr is never null
-Here is an example:
+Here is an example: 
 Cmd Args : 32 56 85 1
 Array in reverse order is : 
 1
