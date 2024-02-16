@@ -1,6 +1,6 @@
 Write a class InitializeArray with a public method initialize that takes two parameters len and ele are of type int returns an array of length len and set all the elements in the array to ele. Assumptions:
  arr is never null
-Here is an example:
+Here is an example: 
 Enter length of array:
 4
 Enter element in the array:
