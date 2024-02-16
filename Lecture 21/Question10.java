@@ -7,7 +7,7 @@ Cmd Args : 1 5 6 7 8
 6
 7
 1
-
+ 
 
 package q11058;
 public class SwapFirstAndLast{
