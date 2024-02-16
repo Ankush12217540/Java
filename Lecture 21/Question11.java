@@ -3,7 +3,7 @@ Write a class SequenceCheck with a public method sequenceCheck that takes one pa
 Assumptions:
 arr is never null
 Elements 6, 9, 12 are appear consecutiviely
-Here are examples:
+Here are examples: 
 Cmd Args : 62 32 6 9 12
 true
 Cmd Args : 99 36 6 12 56 9
