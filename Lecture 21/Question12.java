@@ -1,7 +1,7 @@
 Write a class SequenceCheck with a public method sequenceCheck that takes one parameter arr of type int[] and returns true if the elements 1,2,3 are present in the arr.The returen type of sequenceCheck should be boolean.
 
 Assumptions:
-arr is never null
+arr is never null 
 The elements need not be in consecutive order
 Here are examples:
 Cmd Args : 1 6 3 2
