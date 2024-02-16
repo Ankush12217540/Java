@@ -7,7 +7,7 @@ Cmd Args : 33 25 12 5 33
 true
 Cmd Args : 1 2 3 4
 false
-
+ 
 package q11055;
 
 public class ElementCheck {
