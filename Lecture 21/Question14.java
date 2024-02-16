@@ -1,6 +1,6 @@
 Write a class SequenceCount with a public method sequenceCount that takes one parameter arr of type int[] and returns the sequence count 1,1 in the arr. The return type of sequenceCount should be int.
 
-Assumptions:
+Assumptions: 
 arr is never null
 Overlapping of counting is allowed
 Here is an example:
