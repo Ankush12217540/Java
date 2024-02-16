@@ -11,7 +11,7 @@ false
 
 
 package q11056;
-
+ 
 public class ElementCheck {
 	
 	/**
