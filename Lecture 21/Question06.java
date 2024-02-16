@@ -7,7 +7,7 @@ Enter no of elements in the array:
 5
 Enter elements in the array seperated by space:
 9 5 12 35 6
-Enter the search element:
+Enter the search element: 
 5
 true
 Enter no of elements in the array:
