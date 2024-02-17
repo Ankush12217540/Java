@@ -6,7 +6,7 @@ Here is an example:
 Cmd Args : 3 2 3 3 3 3
 The element 3 presents 4 times in the arry 
 
-
+ 
 package q10942;
 public class ArrayElementCounter {
 	public int countElement(int[] arr, int element) {
