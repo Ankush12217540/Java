@@ -2,7 +2,7 @@ Create a class CityNameFinder with a public method findElement that takes one pa
 
 The findElement method should create an array namesArr containing these city names: Mumbai, Delhi, Kolkata, Chennai, Hyderabad, Bangalore.
 Write code in the method to print the element that is present at the index passed to the method.
-
+ 
 The program should print Wrong Index if the value of index is not in the range of valid indices of the array.
 
 For example:
