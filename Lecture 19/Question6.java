@@ -5,7 +5,7 @@ arr is never null
 arr may contain duplicate elements but returns the index of the first match of the element
 Here is an example:
 Cmd Args : 69 25 89 54 89
-First match of the element 89 index is: 2
+First match of the element 89 index is: 2 
 
 
 package q10941;
