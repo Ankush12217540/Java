@@ -20,7 +20,7 @@ public class ArrayElementCounter {
 	public int countElement(int[] arr, int element) {
 		//Write your code here
 	
-	
+	 
 	int count = 0;
 	
 	for (int i = 0; i< arr.length; i++) {
