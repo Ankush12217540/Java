@@ -2,7 +2,7 @@ In Java, a multidimensional array is implemented as an array of arrays.
 
 A multidimensional array is an array whose components are themselves arrays. Imagine a medical cabinet like this:
 
-
+  
 
 The cabinet has multiple rows of medicines. Each row in the cabinet is an array and the whole cabinet is a multidimensional array.
 
