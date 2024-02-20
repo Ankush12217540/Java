@@ -3,7 +3,7 @@ Write a class MultiplicationOfMatrix with a public method multiplication which r
 Consider the following example for your understanding
 Matrix 1:
 Enter number of rows: 3
-Enter number of columns: 2
+Enter number of columns: 2 
 Enter 2 numbers separated by space
 Enter row 1: 1 2
 Enter row 2: 4 5
