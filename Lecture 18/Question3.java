@@ -3,7 +3,7 @@ The class MultiDimArrayPrinter with a main method. The program prints a multidim
 The code in the main method uses a for-each loop to iterate over the multidimensional array intArr and prints the values.
 
 Understand and retype the code below.
-
+ 
 package q10946;
 public class MultiDimArrayPrinter {
 	public static void main(String[] args) {
