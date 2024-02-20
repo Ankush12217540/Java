@@ -1,7 +1,7 @@
 Write a class PrimeNumbers with a public method primeInLimits that takes two parameters high and low are of type int. Print the prime numbers between the given limits (including first and last values)
 
 For example:
-Cmd Args : 3 10
+Cmd Args : 3 10 
 3 5 7 
 Note: Please don't change the package name.
 
