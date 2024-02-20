@@ -3,7 +3,7 @@ The class MultiDimArrayPrinter prints a multidimensional array of integers.
 The code in the main method uses for loops with loop counters to iterate over the multidimensional array int2DArr and print the values.
 
 Understand and retype the code below:
-
+ 
 package q10947;
 public class MultiDimArrayPrinter {
 	public static void main(String[] args) {
