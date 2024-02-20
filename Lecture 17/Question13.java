@@ -8,7 +8,7 @@ Cmd Args : 333
 package q10894;
 
 public class NumberPalindrome {
-	
+	 
 	public void isNumberPalindrome(int num) {
 		
 		//Write your code here
