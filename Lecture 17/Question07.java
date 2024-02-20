@@ -10,7 +10,7 @@ If it evaluates to true, the body containing one or more code statements is exec
 If the expression evaluates to false, the body containing code statements is not executed.
 For example:
 	int value = 4, sum = 0;
-	while (value > 0) { // start of while loop body
+	while (value > 0) { // start of while loop body 
 		sum = sum + value;
 		value--;
 	} // end of while loop body
