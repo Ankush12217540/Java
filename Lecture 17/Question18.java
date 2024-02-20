@@ -10,7 +10,7 @@ for (int i = 1; i < 10; i++) {
 }
 The above code skips printing all even numbers.
 
-Click on  to understand the working of continue in action.
+Click on  to understand the working of continue in  action.
 
 In the below program the method skipEven(int[] args) receives an array of integers.
 
