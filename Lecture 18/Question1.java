@@ -8,7 +8,7 @@ An array is a kind of data structure that holds a fixed number of values of a si
 
 For example, an array of size 10 (int[] marksArr = new int[10];) can be visualized as shown below.
 0	1	2	3	4	5	6	7	8	9
-
+ 
 Essentially an array can be thought of as a sequence of buckets. The first bucket is identified with number 0, the second bucket with 1 and so on. This number is called the index.
 
 An element is stored in a bucket using the bucket's index. For example, if we want to store a value of 341 at the first index, the code is marksArr[0] = 341;.
