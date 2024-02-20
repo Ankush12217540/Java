@@ -13,7 +13,7 @@ public class PrimeVerify{
  boolean isPrime(int n)
 	
 	{
-		
+		 
 		// Corner cases
 		
 		if (n <= 1)
