@@ -15,5 +15,5 @@ Select all the correct statements from below:'
 
 Answer 
 
-Whatever can be done with a for loop can also be done with a while loop.
+Whatever can be done with a for loop can also be done with a while loop. 
 Whatever can be done with a while loop can also be done with a for loop.
