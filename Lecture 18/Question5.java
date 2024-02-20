@@ -3,7 +3,7 @@ Write a class AdditionOfMatrix with a public method add which returns the sum of
 Consider the following examples for your understanding:
 Matrix 1:
 Enter number of rows: 2
-Enter number of columns: 2
+Enter number of columns: 2 
 Enter 2 numbers separated by space
 Enter row 1: 1 2
 Enter row 2: 3 4
