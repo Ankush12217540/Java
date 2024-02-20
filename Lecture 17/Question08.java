@@ -3,7 +3,7 @@ Write a class PrintFiveTimes with a main method. The program should print Ganga 
 Fill the missing code in the below program so that it produces the desired output.
 
 Note: Please don't change the package name.
-
+ 
 package q10889;
 public class PrintFiveTimes {
 	public static void main(String[] args) {
