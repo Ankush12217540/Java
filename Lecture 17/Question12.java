@@ -6,7 +6,7 @@ Reverse : 963
 
 
 package q10893;
-class SumAndReverseNumber {
+class SumAndReverseNumber { 
 	
 	
 	
