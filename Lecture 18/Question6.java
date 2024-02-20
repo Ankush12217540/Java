@@ -7,7 +7,7 @@ Enter number of columns: 2
 Enter 2 numbers separated by space
 Enter row 1: 1 2
 Enter row 2: 3 4
-Enter row 3: 5 6
+Enter row 3: 5 6 
 Transpose of given matrices is:
 1 3 5
 2 4 6
