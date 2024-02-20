@@ -16,7 +16,7 @@ The given number 25 is not an armstrong number
 Note: Please don't change the package name.
 
 package q10891;
-public class Armstrong
+public class Armstrong 
 
 {
 	
