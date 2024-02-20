@@ -11,7 +11,7 @@ As mentioned above the target labels for a continue, are generally used to name 
 This allows one to directly transfer control (using continue) to a labelled loop block. For example in the below code:
 OuterLoop : 
 while (condition1) {
-	//do something...//do something...InnerLoop : 
+	//do something...//do something...InnerLoop :  
 	while (condition2) {
 		//do something...//do something...
 		if (condition3) {
