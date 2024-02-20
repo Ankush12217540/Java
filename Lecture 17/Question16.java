@@ -5,7 +5,7 @@ for (int i = 1; i < 10; i++) {
 	if (i % 5 == 0) {
 		break; // breaks from for-loop, if i is divisible by 5. 
 	}
-	System.out.println(i);
+	System.out.println(i); 
 }
 Click on  to understand the working of break; statement.
 
