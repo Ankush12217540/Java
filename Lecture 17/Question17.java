@@ -6,7 +6,7 @@ A break target need not always be a switch, while, do-while, or for statement, i
 for (int i = 1; i < 10; i++) {
 	System.out.println("Step : 1");
 	SkipMe : {
-		if (i % 5 == 0) {
+		if (i % 5 == 0) { 
 			break SkipMe; // breaks to the SkipMe :  label 
 		}
 		System.out.println(i);
