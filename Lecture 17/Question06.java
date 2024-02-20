@@ -16,7 +16,7 @@ class Factorial{
 		
 		int number=Integer.parseInt(args[0]);
 		
-		for(i=1;i<=number;i++){
+		for(i=1;i<=number;i++){ 
 			
 			fact=fact*i;
 			
