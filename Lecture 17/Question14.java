@@ -6,7 +6,7 @@ do {
 	....
 } while (condition);
 Note: The statements inside the do-while block will be executed once before the condition in the while is evaluated.
-The condition is an expression which should always evaluate to a boolean value.
+The condition is an expression which should always evaluate to a boolean value. 
 If it evaluates to true, the body containing one or more code statements is executed.
 If the expression evaluates to false, the body containing code statements is not executed.
 For example:
