@@ -15,7 +15,6 @@ class FibonacciSeries{
 		int num1 = 0, num2 = 1;
 		
 		
-		
 		int counter = 0;
 		
 		
