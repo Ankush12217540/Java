@@ -1,6 +1,6 @@
 A constructor must be written inside the class body (i.e. inside the open brace { and the closing brace } of the class body).
 
-Identify the errors and correct them.
+Identify the errors and correct them. 
 
 
 package q11161;
