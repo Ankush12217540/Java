@@ -6,7 +6,7 @@ Note the spellings of id, name, age and gender they are written using camel-case
 
 private is an access modifier like public and it is a Java keyword written in lower case.
 
-int and char are primitive types written in lower case.
+int and char are primitive types written in lower case. 
 String is a class name and hence is written with the starting letter in upper case.
 
 See the code and retype the same.
