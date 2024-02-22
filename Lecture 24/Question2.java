@@ -2,7 +2,7 @@ In a class if the name of the constructor is different from the name of the clas
 
 Press Submit to see compilation error and then correct the error.
 
-[Hint: Java is case sensitive, meaning change in the case of characters will make it a different name.]
+[Hint: Java is case sensitive, meaning change in the case of characters will  make it a different name.]
 
 
 package q11143;
