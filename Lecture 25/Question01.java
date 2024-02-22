@@ -1,4 +1,4 @@
-In Java, a method (also called as function) is a named block of code that performs a task.
+ In Java, a method (also called as function) is a named block of code that performs a task.
 
 Like a mathematical function f(x) (read as f of x), in Java, a method (or a function) can act on some input data to produce an output.
 
