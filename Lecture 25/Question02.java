@@ -1,5 +1,5 @@
 toString() is a special method used to convert an object's state information into a human readable text.
-
+  
 Note the spelling of toString()
 
 The toString() method does not take any parameters and will always return a String.
