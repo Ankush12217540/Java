@@ -7,7 +7,7 @@ While programming using OOP approach, the characteristics of an object are repre
 Therefore, in object oriented programming object represents an entity that can store data and has its interface with external world through functions.
 
 Another important term in object oriented programming is a class, which is actually a representation of characteristics and behavior of the same category (or family) of objects. Hence, an object, BMW X5, can be considered as an instance of a class called Car.
-
+ 
 Select all the correct statements given below.
 
 Answer
