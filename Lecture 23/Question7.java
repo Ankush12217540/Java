@@ -4,7 +4,7 @@ A field declaration could also contain initialization. For example:
 private int age = 25;
 Field declarations of similar types can be done as a single statement. For example:
 private int age = 25, totalMarks = 100;
-Note that every statement must be terminated by a semicolon.
+Note that every statement must be terminated by a semicolon. 
 
 Identify the errors and correct them.
 
