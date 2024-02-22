@@ -1,8 +1,8 @@
-The object oriented programming evolved to overcome the limitations of procedural programming approach.
+ The object oriented programming evolved to overcome the limitations of procedural programming approach.
 
 The fundamental concepts in OOP are:
 Data Abstraction
-Data Encapsulation
+Data Encapsulation 
 Modularity
 Inheritance
 Polymorphism
