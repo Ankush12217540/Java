@@ -4,7 +4,7 @@ Note: Please don't change the package name.'
 
 
 package q11217;
-public class Student {
+public class Student { 
 	private String id;
 	private String name;
 	private int age;
