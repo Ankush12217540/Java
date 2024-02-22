@@ -14,8 +14,8 @@ For example, in the statement this.id = id;, this.id refers to the instance fiel
 
 See the code and retype the same code.
 
+ 
 
-'
 
 
 package q11142;
