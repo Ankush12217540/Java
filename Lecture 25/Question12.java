@@ -1,4 +1,4 @@
-In the below you will find that some of the getter and setter methods have wrong return types.
+ In the below you will find that some of the getter and setter methods have wrong return types.
 
 Use the declared type of the field to correct the return types of getter methods and ponder upon what should be the return types of the setter methods to correct them.
 
