@@ -3,7 +3,7 @@ Whenever on compilation, you see an error saying: xyz cannot be resolved, it mea
 On such errors first verify if the symbol xyz is spelt correctly.
 
 Identify the error and correct it.
-
+ 
 
 package q11130;
 public class Student {
