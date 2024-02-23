@@ -1,4 +1,4 @@
-A setter method will always have void as return type and takes the field's type as an argument into the method.
+ A setter method will always have void as return type and takes the field's type as an argument into the method.
 
 void return type indicates that the method does not return a value. It only performs some operation.
 
