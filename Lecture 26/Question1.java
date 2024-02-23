@@ -12,7 +12,6 @@ name.substring(6);
 See and retype the below code, where two instances of Person class are created and stored in references named p1 and p2. Also notice the way we call the method getName() using the dot . on the references
 
 
-
 package q11119;
 public class Person {
 	private String name;
