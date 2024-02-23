@@ -3,7 +3,7 @@ You will notice that the line public class Student { is indented to the left mos
     At the same time you will also notice that the lines inside the class body are indented by one level.
     
     Indenting code is indented to make code easily readable. It helps clearly identify the start and end of independent code blocks, like classes, methods loops etc.
-    
+     
     One can either place the opening brace ({) in a new line or at the end of the statement, In all our examples we will place them at the end of the statement so that we can see more lines on the screen.
     
     The general rules for indentation are as follows:
