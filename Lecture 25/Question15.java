@@ -2,7 +2,7 @@ The list of variables/references that are present in the method declaration are 
 
 When the method is invoked the actual values passed are called arguments.
 
-Select all the correct statements for the below code:
+Select all the correct statements for the below code: 
 public int sum(int num1, int num2) { // statement 1
 	return num1 + num2;
 }
