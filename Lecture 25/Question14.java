@@ -4,7 +4,7 @@ Hence a toString() method's return type is String and it does not take any param
 
 Identify and correct the errors based on the above information provided. Hint: Press Submit to find out the error.'
 
-package q11140;
+package q11140; 
 public class Student {
 	private String id;
 	private String name;
