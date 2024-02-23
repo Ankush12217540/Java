@@ -3,7 +3,7 @@ A getter method of a field will always have the field's type as the return type 
 It does not take any argument since it simply returns the value of the field held by the instance.
 
 For example :
-public String getName() {
+public String getName() { 
 	return name;
 }
 Using the above information identify the errors in the below code and correct them. Press Submit to spot the errors.
