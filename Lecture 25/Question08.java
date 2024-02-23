@@ -52,7 +52,7 @@ public class Student {
 		this.age = age;
 	}
 	
-	public int getAge() {
+	public int getAge() { 
 		return age;
 	}
 	
