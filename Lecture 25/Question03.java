@@ -3,7 +3,7 @@ The toString() is a special method because when the object is involved in the st
 Identify and correct the errors based on the above information provided. Hint: Press Submit to find out the error.'
 
 
-package q11125;
+package q11125; 
 public class Student {
 	private String id;
 	private String name;
