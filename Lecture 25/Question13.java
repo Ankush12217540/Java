@@ -1,4 +1,4 @@
-In the below code you will find that wrong parameter types have been provided to the setter methods.
+ In the below code you will find that wrong parameter types have been provided to the setter methods.
 
 Use the declared field's type to correct the parameter type of the setter methods.
 
