@@ -8,7 +8,7 @@ Create an object to the class Employee within the main(), call setData() with ar
 
 If the input is given as command line arguments to the main() as "Saraswathi", "27", "Teacher", "37250" then the program should print the output as:
 Name : Saraswathi
-Age : 27
+Age : 27 
 Designation : Teacher
 Salary : 37250.0
 
