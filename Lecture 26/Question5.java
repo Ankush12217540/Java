@@ -18,7 +18,7 @@ Java allows for custom packages to organize the classes. We need to use a packag
 package com.mycompany.games;
 
 public class Cricket {
-	...
+	... 
 }
 Note: While learning, in all our examples we will not use package declarations. We will start using them when we write code in an IDE like Eclipse at a later stage. However, we will start using the import statements to import appropriate classes from the packages.
 
