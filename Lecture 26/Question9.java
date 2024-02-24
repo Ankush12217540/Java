@@ -1,7 +1,7 @@
 In Java, the void keyword is a placeholder to indicate that there is no return type for a method.
 
 For example, the below method adds num1 and num2 and returns the result.
-public int sum(int num1, int num2) {
+public int sum(int num1, int num2) { 
 	return num1 + num2;
 }
 Since the type of the result being returned is also int, the method's return type is marked int.
