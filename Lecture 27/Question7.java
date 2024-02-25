@@ -1,5 +1,5 @@
 Strings can be concatenated using the + operator.
-
+ 
 For example:
 String helloStr = "Hello " + "World"; 
 If one operand in the expression is of type String and the other operand is not a String, the latter is converted to a string by automatically invoking the toString() method on it.
