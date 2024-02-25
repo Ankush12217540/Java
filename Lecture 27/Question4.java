@@ -4,7 +4,7 @@ There is a single double-quote before "BLUE
 
 
 package q11147;
-public class EscapeSequence {
+public class EscapeSequence { 
 	public static void main(String[] args) {
 		String text = "There is a single double-quote before \"BLUE";
 		System.out.println(text);
