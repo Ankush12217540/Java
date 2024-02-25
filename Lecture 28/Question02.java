@@ -8,7 +8,7 @@ package q11152;
 
 
 public class TestStringMethods {
-	
+	 
 	public static void main(String[] args) {
 		
 		String str = args[0];
