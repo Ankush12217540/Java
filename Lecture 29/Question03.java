@@ -6,7 +6,7 @@ Cmd Args : CALIFORNICA
 
 package q11173;
 
-
+ 
 public class StringIndexOf {
 	
 	public static void main(String[] args) {
