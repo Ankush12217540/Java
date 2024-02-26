@@ -1,4 +1,4 @@
-Write a class StringLastIndexOf with a main method. The method receives one command line argument. Print the index of the last but one occurrence of the string TX in the given argument.
+Write a class StringLastIndexOf with a main method. The method receives one command line argument. Print  the index of the last but one occurrence of the string TX in the given argument.
 
 For example:
 Cmd Args : TX12TX3TX4
