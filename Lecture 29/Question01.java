@@ -4,7 +4,7 @@ The method public int indexOf(String str) returns the index of the first occurre
 "man and woman and child".indexOf("and") returns 4 
 as the index of the first occurrence of 'and' is 4 within the string.
 
-If we want to search for the index of a substring after a certain position within a string, we should use the method public int indexOf(String str, int fromIndex). It returns the index of the first occurrence of the specified substring, starting the search at the specified index. Example:
+If we want to search for the index of a  substring after a certain position within a string, we should use the method public int indexOf(String str, int fromIndex). It returns the index of the first occurrence of the specified substring, starting the search at the specified index. Example:
 "man and woman and child".indexOf("and", 5) returns 14 
 as the index of the first occurrence of 'and' after index 5 is 14.
 
