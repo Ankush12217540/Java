@@ -6,7 +6,7 @@ Cmd Args : TCA*CX*CX*CAT
 
 package q11172;
 
-
+ 
 public class StringIndexOf {
 	
 	public static void main(String[] args) {
