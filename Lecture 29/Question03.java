@@ -1,7 +1,7 @@
 Write a class StringIndexOf with a main method. The method receives one command line argument. Print the second occurrence of the string CA in the argument.
 
 For Example:
-Cmd Args : CALIFORNICA
+Cmd Args : CALIFORNICA 
 9
 
 package q11173;
