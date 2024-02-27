@@ -4,7 +4,7 @@ Java language designers have provided guidelines called Java code conventions fo
 
 Java naming rules for classes, interfaces, methods and variables employ camel-case convention. In camel-case convention, when two or more words are joined together the starting letter of each word joined will be written in uppercase.
 
-For example: SimpleDateFormat, getAge, maxSpeed.
+For example: SimpleDateFormat, getAge, maxSpeed. 
 
 Below are the rules for naming:
 Class - A class name should be a noun and not a verb. For example
