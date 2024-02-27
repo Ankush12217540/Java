@@ -2,7 +2,7 @@ According to Java code conventions, a blank line is recommended to be used betwe
 
 Below are the rules for using a space ( ):
 Between keyword which is followed by parenthesis:
-while (condition) {
+while (condition) { 
 	...
 }
 for (..; ...; ...) {
