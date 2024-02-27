@@ -6,7 +6,7 @@ Note: Most of the methods in Math class use double as data type, so we will see 
 
 See the retype the below code.
 
-
+ 
 package q11239;
 public class MathExamples {
 	public static void main(String[] args) {
