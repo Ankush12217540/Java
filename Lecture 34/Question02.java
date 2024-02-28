@@ -1,8 +1,8 @@
-  
+   
 Close100%00:05 Secs
 L34
 Method Overloading
-Q. No : 11266
+Q. No : 11266 
 Write a Java program to implement Method overloading 
 Write a Java program with a class name Addition with the methods add(int, int), add(int, float), add(float, float) and add(float, double, double) to add values of different argument types.
 
