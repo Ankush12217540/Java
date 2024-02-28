@@ -3,7 +3,7 @@ Close100%00:05 Secs
 L34
 Method Overloading
 Q. No : 11266 
-Write a Java program to implement Method overloading 
+Write a Java program to implement Method overloading  
 Write a Java program with a class name Addition with the methods add(int, int), add(int, float), add(float, float) and add(float, double, double) to add values of different argument types.
 
 Write the main(String[]) method within the class and assume that it will always receive a total of 6 command line arguments at least, such that the first 2 are int, next 2 are float and the last 2 are of type double.
