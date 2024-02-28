@@ -11,7 +11,7 @@ Create another class Snake which extends Animal, which will print I am a snake.
 Write a class RuntimePolymorphismDemo with the main() method, create objects to all the classes Animal, Dog, Cow, Snake and call whoAmI() with each object.
 
 
-
+ 
 package q11277;
 public class RuntimePolymorphismDemo {
 	public static void main(String[] args) {
