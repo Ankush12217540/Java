@@ -13,9 +13,8 @@ Sum of 1 and 2 : 3
 Sum of 1.5 and 2.5 : 4.0
 Sum of 2 and 2.5 : 4.5
 Sum of 1.5, 1.0 and 2.0 : 4.5
-
-
-package q11266;
+ 
+	package q11266;
 public class Addition {
 	static void add(int x,int y){
 		System.out.println("Sum of "+x+" and "+y+" : "+(x+y));
