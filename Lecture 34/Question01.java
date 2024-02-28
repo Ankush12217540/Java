@@ -5,7 +5,7 @@ public void concatenate(String text, int num) {
 public void concatenate(String text, boolean flag) {
 	return text + flag;
 }
-public void concatenate(String text, char ch) {
+public void concatenate(String text, char ch) { 
 	return text + ch;
 }
 In the above code, concatenate method is overloaded three times.
