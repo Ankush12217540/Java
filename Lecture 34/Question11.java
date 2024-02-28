@@ -6,7 +6,7 @@ After seeing the output when you read the below text you will understand polymor
 
 You will notice that getName() method is overridden in class B and class C.
 You will notice that the overridden getName() method in class B first invokes the getName() method present in class A using the super keyword.
-Similar is the case with class C.
+Similar is the case with class C. 
 Both the overridden methods in B and C append their own information to the value returned by the superclass's getName() method.
 Notice that references a, b, c are declared to be of type class A, even though their instances objects are of types A, B and C respectively.
 
