@@ -12,7 +12,7 @@ That is how in the statement System.out.println("a : " + a);, "a : " + a is resu
 
 package q11279;
 public class ToStringExample {
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		A a = new A(4);
 		System.out.println("a.toString() : " + a.toString());
 		System.out.println("a : " + a);
