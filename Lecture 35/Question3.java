@@ -1,4 +1,4 @@
-Scope can be defined as a portion or block of code in which a variable is visible.
+  Scope can be defined as a portion or block of code in which a variable is visible.
 
 We apply the word scope to variables/references and not so much to methods as methods are members of classes and interfaces.
 
