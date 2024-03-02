@@ -1,4 +1,4 @@
-As the meaning of the word interface suggests, it is the point where two systems or subjects meet to interact.
+ As the meaning of the word interface suggests, it is the point where two systems or subjects meet to interact.
 
 Interface holds the same meaning in object oriented programming languages too. An interface defines a contract using which two classes/programs/systems can interact with each other.
 
