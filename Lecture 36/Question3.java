@@ -1,6 +1,6 @@
 Write a Java program that implements an interface.
-
-Create an interface called Car with two abstract methods String getName() and int getMaxSpeed(). Also declare one default method void applyBreak() which has the code snippet
+ 
+Create an interface called Car with two abstract methods String getName() and int Also declare one default method void applyBreak() which has the code snippet
 System.out.println("Applying break on " + getName());
 
 In the same interface include a static method Car getFastestCar(Car car1, Car car2), which returns car1 if the maxSpeed of car1 is greater than or equal to that of car2, else should return car2.
