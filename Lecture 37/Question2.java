@@ -1,4 +1,4 @@
-Write a Java program to illustrate the abstract class concept.
+Write a Java program to illustrate the abstract class concept. 
 
 Create an abstract class CalcArea and declare the methods triangleArea(double b, double h), rectangleArea(double l, double b), squareArea(double s), circleArea(double r).
 
