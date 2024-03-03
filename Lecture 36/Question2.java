@@ -1,4 +1,4 @@
-An interface is primarily used to create a type.
+An interface is primarily used to create a type. 
 
 In Java, a class is also a type which has behaviour attached to it.
 
