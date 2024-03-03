@@ -1,5 +1,5 @@
 In Java, a class when declared with abstract keyword becomes an abstract class. For example:
-public abstract class A {
+public abstract class A { 
 }
 As per the dictionary, abstract means not concrete. In object oriented languages also, when a class is marked with abstract keyword, it indicates that the class is not concrete. It cannot be instantiated. Meaning, the Java compiler will given an error, saying abstract class A cannot be instantiated, if we write a statement like A a = new A();.
 
