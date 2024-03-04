@@ -1,7 +1,7 @@
  Write a class TransposeMatrix with a public method transposeMatrix that takes one parameter matrix1 of type int[][] which returns the transpose of the given matrix.
 
 Consider the following example for your undertanding:
-Matrix:
+Matrix: 
 Enter number of rows: 3
 Enter number of columns: 2
 Enter 2 numbers separated by space
