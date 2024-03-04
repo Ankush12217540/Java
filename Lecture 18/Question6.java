@@ -10,7 +10,7 @@ Enter row 2: 3 4
 Enter row 3: 5 6 
 Transpose of given matrices is:
 1 3 5
-2 4 6
+2 4 6 
 
 package q11105;
 public class TransposeMatrix {
