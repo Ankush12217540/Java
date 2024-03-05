@@ -12,7 +12,7 @@ class A { //this is called a top-level class
 	}
 }
 In the above code,
-A is called a top-level class
+A is called a top-level class 
  B is called an inner class
 C is called a static nested class and
 D is called a local class
