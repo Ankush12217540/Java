@@ -1,4 +1,4 @@
-An anonymous class can:
+An anonymous class can: 
 have its own fields and custom methods which may not be there in the interface it is implementing or the class it is extending
 access members of its enclosing class
 have static fields provided they are also marked as final
