@@ -1,4 +1,4 @@
-An anonymous class is very similar to a local class except that an anonymous class combines both the declaration and definition of the class into a single expression statement.
+ An anonymous class is very similar to a local class except that an anonymous class combines both the declaration and definition of the class into a single expression statement.
 
 Secondly an anonymous class usually implements an interface or extends a class.
 
