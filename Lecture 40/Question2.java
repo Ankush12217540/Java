@@ -5,7 +5,7 @@ Nested classes which are not declared as static are called inner classes.
 For example:
 class A { //this is called a top-level class
 	class B { //this is an inner class
-	}
+	 }
 	static class C { //this is a nested class
 	}
 }
