@@ -4,7 +4,7 @@ Secondly an anonymous class usually implements an interface or extends a class.
 
 For example the below code shows the difference between an inner class and an anonymous class:
 interface Printer { //this is a top-level interface
-	public void printMe();
+	public void printMe(); 
 }
 class A {  //this is a normal top-level class
 	public static void main(String[] args) {
