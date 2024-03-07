@@ -10,7 +10,7 @@ If there is a block of code which has to be executed before the code inside any 
 
 
 
-package q11289;
+package q11289; 
 public class NonStaticInitBlockDemo {
 	public static void main(String[] args) {
 		A a1 = new A();
