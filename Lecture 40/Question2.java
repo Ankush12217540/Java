@@ -1,4 +1,4 @@
-A nested class marked as static is called a static nested class and not an inner class.
+ A nested class marked as static is called a static nested class and not an inner class.
 
 Nested classes which are not declared as static are called inner classes.
 
