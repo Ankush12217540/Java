@@ -1,4 +1,4 @@
-In a Java class, the fields which are marked as static are called static fields and those that are not marked as static are called as instance fields or simply fields. For example, in the below code:
+ In a Java class, the fields which are marked as static are called static fields and those that are not marked as static are called as instance fields or simply fields. For example, in the below code:
 class A {
 	static int a;
 	int b;
