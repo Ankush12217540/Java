@@ -1,4 +1,4 @@
-In Java, we can write a class inside another class. Such classes are called nested classes.
+ In Java, we can write a class inside another class. Such classes are called nested classes.
 
 We can classify the nested classes into four types :
 Inner classes
