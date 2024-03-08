@@ -3,7 +3,7 @@ Java 8 onwards demonstration to Implement functional interface using lambda expr
 Implementation is:
 
 
-
+ 
 import java.util.*;
 import java.lang.*;
 import java.io.*;
