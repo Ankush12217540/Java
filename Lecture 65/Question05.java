@@ -16,7 +16,7 @@ class PredicateInterface{
 				
 				System.out.println(W);
 				
-			}
+			} 
 			
 			
 		}
