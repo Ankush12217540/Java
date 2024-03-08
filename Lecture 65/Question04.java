@@ -1,7 +1,7 @@
 Built in functional interfaces in java.util.function Package: 
 
  
-
+ 
 Predicate: 
 
 Abstract method test in Predicate interface gives a Boolean value as a result for the specified argument. 
