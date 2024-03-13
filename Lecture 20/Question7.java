@@ -1,4 +1,4 @@
- Binary search is faster than linear search, as it uses divide and conquer technique and it works on the sorted list either in ascending or descending order.
+  Binary search is faster than linear search, as it uses divide and conquer technique and it works on the sorted list either in ascending or descending order.
 
 Binary search (or) Half-interval search (or) Logarithmic search is a search algorithm that finds the position of a key element within a sorted array.
 
