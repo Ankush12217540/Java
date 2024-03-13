@@ -25,7 +25,7 @@ Search - 3 :
 Compare 10 with middle element i.e., (low + high) / 2 = (0 + 1) / 2 = 1 / 2 = 0, a[0] is 10.
 Here 10 == 10 so print the index 0 where the element has found and stop the process
 Write a class BinarySearch with a public method binarySearch that takes two parameters an array of type int[] and a key of type int. Write a code to search the key element within the array elements by using binary search technique.
-
+ 
 Examples for your understanding:
 Cmd Args : 10 1 2 3 4 5 4
 Search element 4 is found at position : 4
