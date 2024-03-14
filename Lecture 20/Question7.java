@@ -14,7 +14,7 @@ If the key element is greater than the middle element then search the key elemen
 If the key element is less than the middle element then search the key element in the first half.
 Repeat the same process for the  sub lists depending upon whether key is in the first half or second half of the list until a match is found (or) until all the elements in that half have been searched.
 Let us consider an example of array numbers "50 20 40 10 80", and the key element is to find is 10.
-
+ 
 Search - 1 : 
 First Sort the given array elements by using any one of the sorting technique. 
 After sorting the elements in the array are 10 20 40 50 80 and initially low = 0, high = 4.
