@@ -16,7 +16,7 @@ Repeat the same process for the  sub lists depending upon whether key is in the 
 Let us consider an example of array numbers "50 20 40 10 80", and the key element is to find is 10.
 
 Search - 1 : 
-First Sort the given array elements by using any one of the sorting technique.
+First Sort the given array elements by using any one of the sorting technique. 
 After sorting the elements in the array are 10 20 40 50 80 and initially low = 0, high = 4.
 Search - 2 : 
 Compare 10 with middle element i.e., (low + high) / 2 = (0 + 4) / 2 = 4 / 2 = 2, a[2] is 40.
