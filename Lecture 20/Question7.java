@@ -2,7 +2,7 @@
 
 Binary search (or) Half-interval search (or) Logarithmic search is a search algorithm that finds the position of a key element within a sorted array.
 
-Binary search compares the key element to the middle element of the array; if they are unequal, the half in which the key element cannot lie is eliminated and the search continues on the remaining half until it is successful.
+Binary  search compares the key element to the middle element of the array; if they are unequal, the half in which the key element cannot lie is eliminated and the search continues on the remaining half until it is successful.
 
 The working procedure for binary search is as follows:
 
