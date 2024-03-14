@@ -12,7 +12,7 @@ Compare the key element with the middle element.
 If the comparison result is true the print the index position where the key element has found and stop the process.
 If the key element is greater than the middle element then search the key element in the second half.
 If the key element is less than the middle element then search the key element in the first half.
-Repeat the same process for the sub lists depending upon whether key is in the first half or second half of the list until a match is found (or) until all the elements in that half have been searched.
+Repeat the same process for the  sub lists depending upon whether key is in the first half or second half of the list until a match is found (or) until all the elements in that half have been searched.
 Let us consider an example of array numbers "50 20 40 10 80", and the key element is to find is 10.
 
 Search - 1 : 
