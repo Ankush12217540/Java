@@ -1,0 +1,1140 @@
+47.1.1
+In non-static init block 1
+In non-static init block 2
+In constructor
+value = 3
+In non-static init block 1
+In non-static init block 2
+In constructor
+value = 3
+
+47.1.2
+Before any constructor is called, every time an instance of the class is created.
+
+47.1.3
+
+import java.util.Scanner;
+
+class Person {
+    private String name;
+    private int age;
+    private String address;
+
+    public Person(String name, int age, String address) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+}
+
+class PersonManager {
+    private Person person;
+
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter name:");
+        String name = scanner.nextLine();
+        System.out.print("Enter age:");
+        int age = scanner.nextInt();
+        scanner.nextLine(); // consume newline
+        System.out.print("Enter address:");
+        String address = scanner.nextLine();
+
+        person = new Person(name, age, address);
+    }
+
+    public void printPersonDetails() {
+        System.out.println("Name: " + person.getName());
+        System.out.println("Age: " + person.getAge());
+        System.out.println("Address: " + person.getAddress());
+    }
+}
+
+public class PersonMain {
+    public static void main(String[] args) {
+        PersonManager manager = new PersonManager();
+        manager.printPersonDetails();
+    }
+}
+
+
+
+47.2.1
+
+In static init block 1
+In static init block 2
+In constructor
+In constructor
+
+
+47.2.2
+import java.util.Scanner;
+
+public class StaticInitializationExample {
+    // Static variable declaration
+    static int x;
+
+    // Static initialization block
+    static {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("value of x: ");
+        x = scanner.nextInt();
+        System.out.println("Static block initialized with x = " + x);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Inside main method");
+        System.out.println("Value of x: " + x);
+    }
+}
+
+47.2.3
+
+import java.util.Scanner;
+
+public class MultipleStaticBlocksDemo {
+    static int a;
+
+    static {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("value for a: ");
+        a = scanner.nextInt();
+        System.out.println("First static block executed");
+    }
+
+    static {
+        System.out.println("Second static block executed");
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Static block initialized with a = " + a);
+    }
+}
+
+48.1.1
+
+
+class A {
+    static int aStaticField; // static field
+    int instanceField; // instance field
+
+    // Constructor to initialize instance field
+    A(int instanceFieldValue) {
+        this.instanceField = instanceFieldValue;
+    }
+}
+
+public class StaticFieldDemo {
+    public static void main(String[] args) {
+        A a1 = new A(3);
+        A a2 = new A(4);
+
+        // Accessing static field using class name
+        A.aStaticField = 5;
+
+        // Printing the values of instanceField and aStaticField for each instance
+        System.out.println("a1 = A [instanceField = " + a1.instanceField + ", aStaticField = " + A.aStaticField + "]");
+        System.out.println("a2 = A [instanceField = " + a2.instanceField + ", aStaticField = " + A.aStaticField + "]");
+        System.out.println("A.aStaticField = " + A.aStaticField);
+    }
+}
+48.1.2
+
+public class CounterTest {
+    private static int count = 1;
+
+    public static void increment() {
+        count++;
+    }
+
+    public static void decrement() {
+        count--;
+    }
+
+    public static void displayCount() {
+        System.out.println("Current value of count is: " + count);
+    }
+
+    public static void main(String[] args) {
+        // Test case 1
+        displayCount(); // Initial value of count is 0
+
+        increment();    // Increment count by 1
+        displayCount(); // Current value of count is 1
+
+
+        decrement();    // Decrement count by 1
+        displayCount(); // Current value of count is 1
+    }
+}
+
+48.1.3
+import java.util.Scanner;
+
+public class Quiz {
+    private static double averageScore = 0;
+    private static int numQuizzes = 0;
+
+    public static void updateAverage(double score) {
+        averageScore = (averageScore * numQuizzes + score) / (numQuizzes + 1);
+        numQuizzes++;
+        System.out.println("Current average score: " + averageScore);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.print("Enter quiz score (or type 'q' to quit): ");
+            String input = scanner.nextLine();
+            if (input.equalsIgnoreCase("q")) {
+                break;
+            }
+            try {
+                double score = Double.parseDouble(input);
+                updateAverage(score);
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input. Please enter a valid number or 'q' to quit.");
+            }
+        }
+        scanner.close();
+    }
+}
+
+
+48.2.1
+
+class A {
+    private int instanceField;
+    private static int counter = 0; // Static field to keep track of instances
+
+    public A(int instanceField) {
+        this.instanceField = instanceField;
+        counter++; // Increment the counter for each instance created
+    }
+
+    public static int getInstanceCount() {
+        return counter; // Static method to access the static field
+    }
+
+    @Override
+    public String toString() {
+        return "A [instanceField = " + instanceField + ", counter = " + counter + "]";
+    }
+}
+
+public class StaticMethodDemo {
+    public static void main(String[] args) {
+        A a1 = new A(3);
+        A a2 = new A(4);
+
+        System.out.println("a1 = " + a1);
+        System.out.println("a2 = " + a2);
+        // Accessing static method correctly using class name
+        System.out.println("A.getInstanceCount() = " + A.getInstanceCount());
+    }
+}
+48.2.2
+
+//write the code
+    public static int add(int x, int y) {
+        return x + y;
+    }
+
+48.2.3
+import java.util.Scanner;
+
+class A {
+    public static String concatenate(String str1, String str2) {
+        return str1 + str2;
+    }
+}
+
+public class StringUtils {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        
+        String str1 = scanner.nextLine();
+        
+        
+        String str2 = scanner.nextLine();
+        
+        String result = A.concatenate(str1, str2);
+        System.out.println( result);
+        
+        scanner.close();
+    }
+}
+
+48.3.1
+
+// Define the main class StaticClassDemo
+public class StaticClassDemo {
+    
+    // Define the main method
+    public static void main(String[] args) {
+        // Create instances of the nested static class A
+        A a1 = new A(3);
+        A a2 = new A(4);
+        
+        // Print string representation of a1 and a2
+        System.out.println("a1 = " + a1);
+        System.out.println("a2 = " + a2);
+    }
+    
+    // Define a static nested class A
+    static class A {
+        // Private integer variable value
+        private int value;
+        
+        // Constructor for class A
+        public A(int value) {
+            this.value = value;
+        }
+        
+        // Override toString method to return string representation
+        @Override
+        public String toString() {
+            return "A [value = " + value + "]";
+        }
+    }
+}
+
+
+48.3.2
+
+import java.util.Scanner;
+
+public class MathMain {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        
+        int a = scanner.nextInt();
+
+        
+        int b = scanner.nextInt();
+
+        scanner.close();
+
+        System.out.println("Addition: " + MathUtils.add(a, b));
+        System.out.println("Subtraction: " + MathUtils.subtract(a, b));
+        System.out.println("Multiplication: " + MathUtils.multiply(a, b));
+    }
+
+    static class MathUtils {
+        public static int add(int a, int b) {
+            return a + b;
+        }
+
+        public static int subtract(int a, int b) {
+            return a - b;
+        }
+
+        public static int multiply(int a, int b) {
+            return a * b;
+        }
+    }
+}
+
+
+49.1.1
+public class Namer {
+    private String name;
+
+    public Namer(String name) {
+        this.name = name;
+    }
+
+    class Prefixer {
+        public String getCompleteName(String prefix) {
+            return prefix + " " + Namer.this.name;
+        }
+    }
+
+    public static void main(String[] args) {
+        Namer nameObj = new Namer("Doodle");
+        Namer.Prefixer prefixer = nameObj.new Prefixer();
+        System.out.println(prefixer.getCompleteName("Mr."));
+    }
+}
+
+49.1.2
+import java.util.Scanner;
+
+public class EvenNumberChecker {
+    private int number;
+
+    public EvenNumberChecker(int number) {
+        this.number = number;
+    }
+
+    // Inner class to check if a number is even
+    class EvenCheck {
+        public boolean isEven() {
+            return number % 2 == 0;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int num = scanner.nextInt();
+        
+        EvenNumberChecker evenNumberChecker = new EvenNumberChecker(num);
+        EvenCheck evenCheck = evenNumberChecker.new EvenCheck();
+
+        if (evenCheck.isEven()) {
+            System.out.println("Even");
+        } else {
+            System.out.println("Odd");
+        }
+        
+        scanner.close();
+    }
+}
+
+
+49.2.1
+
+class A {
+    class B {
+        B() {
+            System.out.println("In inner class B's constructor");
+        }
+    }
+
+    static class C {
+        C() {
+            System.out.println("In static nested class C's constructor");
+        }
+    }
+
+    public static void main(String[] args) {
+        A outer = new A();
+        A.B inner = outer.new B();
+        A.C nested = new A.C();
+    }
+}
+
+49.2.2
+
+import java.util.Scanner;
+
+class MathUtils {
+    static class Geometry {
+        // Method to calculate the area of a circle
+        public static double circleArea(double radius) {
+            return Math.PI * radius * radius;
+        }
+        
+        // Method to calculate the area of a rectangle
+        public static double rectangleArea(double length, double width) {
+            return length * width;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input for circle radius
+        double radius = scanner.nextDouble();
+
+        // Input for rectangle length
+        double length = scanner.nextDouble();
+
+        // Input for rectangle width
+        double width = scanner.nextDouble();
+
+        // Calculate area of circle
+        double circleArea = Geometry.circleArea(radius);
+        System.out.println("Area of circle: " + String.format("%.2f", circleArea));
+
+        // Calculate area of rectangle
+        double rectangleArea = Geometry.rectangleArea(length, width);
+        System.out.println("Area of rectangle: " + String.format("%.2f", rectangleArea));
+
+        scanner.close();
+    }
+}
+
+49.2.3
+import java.util.Scanner;
+
+public class ArrayMain {
+
+    // Static nested class ArrayUtils
+    static class ArrayUtils {
+        
+        // Method to find the maximum element in an array
+        public static int findMax(int[] arr) {
+            int max = arr[0];
+            for (int i = 1; i < arr.length; i++) {
+                if (arr[i] > max) {
+                    max = arr[i];
+                }
+            }
+            return max;
+        }
+
+        // Method to find the minimum element in an array
+        public static int findMin(int[] arr) {
+            int min = arr[0];
+            for (int i = 1; i < arr.length; i++) {
+                if (arr[i] < min) {
+                    min = arr[i];
+                }
+            }
+            return min;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the size of the array from the user
+        System.out.print("Size: ");
+        int size = scanner.nextInt();
+
+        // Initialize the array with the given size
+        int[] array = new int[size];
+
+        // Read the elements of the array from the user
+        System.out.println("Elements of the array:");
+        for (int i = 0; i < size; i++) {
+            System.out.print("Element " + (i + 1) + ": ");
+            array[i] = scanner.nextInt();
+        }
+
+        // Call the methods from the ArrayUtils class and display the results
+        System.out.println("Maximum element: " + ArrayUtils.findMax(array));
+        System.out.println("Minimum element: " + ArrayUtils.findMin(array));
+
+        // Close the scanner
+        scanner.close();
+    }
+}
+
+
+50.1.1
+
+class A {
+    private int value = 5; // Instance member of the enclosing class A
+
+    class B { // Inner class
+        B() {
+            System.out.println("In inner class B's constructor");
+        }
+    }
+
+    static class C { // Static nested class
+        C() {
+            System.out.println("In static nested class C's constructor");
+        }
+    }
+
+    public void someMethodInClassA() {
+        final int localVar = 2; // Local variable, final so it can be accessed by the local class
+
+        class D { // Local class
+            D() {
+                System.out.println("In local class D's constructor");
+                // Accessing the instance member of the enclosing class A
+                System.out.println("value = " + (value + localVar)); // localVar is accessible because it's final
+            }
+        }
+
+        D localClassInstance = new D(); // Instantiating the local class D
+    }
+
+    public static void main(String[] args) {
+        A outerClassInstance = new A(); // Creating an instance of the top-level class A
+        B innerClassInstance = outerClassInstance.new B(); // Creating an instance of the inner class B
+        C staticNestedClassInstance = new A.C(); // Creating an instance of the static nested class C
+        outerClassInstance.someMethodInClassA(); // Calling the method that creates an instance of the local class D
+    }
+}
+
+
+50.1.2
+
+
+import java.util.Scanner;
+
+public class AreaMain {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user for the length
+        System.out.print("Length: ");
+        double length = scanner.nextDouble();
+
+        // Prompt the user for the width
+        System.out.print("Width: ");
+        double width = scanner.nextDouble();
+
+        // Create an instance of the local class Rectangle
+        Rectangle rectangle = new Rectangle(length, width);
+
+        // Calculate and print the area
+        double area = rectangle.calculateArea();
+        System.out.println("Area: " + area);
+    }
+
+    // Local class Rectangle
+    private static class Rectangle {
+        private double length;
+        private double width;
+
+        // Constructor
+        public Rectangle(double length, double width) {
+            this.length = length;
+            this.width = width;
+        }
+
+        // Calculate the area
+        public double calculateArea() {
+            return length * width;
+        }
+    }
+}
+
+
+
+50.1.3
+
+import java.util.Scanner;
+import java.math.BigInteger;
+
+public class FactorialCalculator {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int inputNumber = scanner.nextInt();
+
+        // Method that defines the local class and calculates the factorial
+        calculateAndPrintFactorial(inputNumber);
+
+        scanner.close();
+    }
+
+    private static void calculateAndPrintFactorial(int number) {
+        // Local class inside the method
+        class Factorial {
+            private int number;
+
+            public Factorial(int number) {
+                this.number = number;
+            }
+
+            public BigInteger calculateFactorial() {
+                BigInteger factorial = BigInteger.ONE;
+                for (int i = 1; i <= number; i++) {
+                    factorial = factorial.multiply(BigInteger.valueOf(i));
+                }
+                return factorial;
+            }
+        }
+
+        // Creating an instance of the local class and using it to calculate the factorial
+        Factorial factorial = new Factorial(number);
+        System.out.println(factorial.calculateFactorial());
+    }
+}
+
+
+50.2.1
+
+
+
+interface Printer { //this is a top-level interface
+    public void printMe();
+}
+
+class A {  //this is a normal top-level class
+    public static void main(String[] args) {
+        class PrinterImpl implements Printer { // an example of a normal local class
+            public void printMe() {
+                System.out.println("I am in printMe method of the local class PrinterImpl instance");
+            }
+        }
+
+        Printer myPrinter1 = new PrinterImpl();
+
+        Printer myPrinter2 = new Printer() { // an example of an anonymous class 
+            public void printMe() {
+                System.out.println("I am in printMe method of the anonymous class");
+            }
+        };
+
+        myPrinter1.printMe();
+        myPrinter2.printMe();
+    }
+}
+
+50.2.2
+
+
+
+interface Printer {
+    void print(String message);
+}
+
+public class AnonymousExample {
+    public static void main(String[] args) {
+        // Example of anonymous class implementing an interface
+        Printer printer = new Printer() {
+            @Override
+            public void print(String message) {
+                System.out.println(message);
+            }
+        };
+        
+        printer.print("printMe is called!");
+        
+        // Example of anonymous class extending a class
+        Prefixer prefixer = new Prefixer("Hello ") {
+            @Override
+            public String getPrefixedName(String name) {
+                return prefix+prefix + name;
+            }
+        };
+        
+        System.out.println(prefixer.getPrefixedName("James"));
+    }
+}
+
+abstract class Prefixer {
+    protected String prefix;
+
+    public Prefixer(String prefix) {
+        this.prefix = prefix;
+    }
+
+    public abstract String getPrefixedName(String name);
+}
+
+50.2.3
+
+Statements 1 and 2 will result in compilation errors.
+
+51.1.1
+Both default and static methods
+
+51.1.2
+import java.util.Scanner;
+
+@FunctionalInterface
+interface CalculateOperation {
+    double calculate(double a, double b);
+}
+
+public class CalculateMain {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get input from the user
+        System.out.print("First number: ");
+        double firstNumber = scanner.nextDouble();
+        System.out.print("Second number: ");
+        double secondNumber = scanner.nextDouble();
+
+        // Implement the functional interface using lambda expressions
+        CalculateOperation subtraction = (a, b) -> a - b;
+        CalculateOperation division = (a, b) -> {
+            if (b != 0) {
+                return a / b;
+            } else {
+                throw new ArithmeticException("Division by zero!");
+            }
+        };
+
+        // Use the lambda expressions
+        double subtractionResult = subtraction.calculate(firstNumber, secondNumber);
+        double divisionResult = division.calculate(firstNumber, secondNumber);
+
+        // Print the results
+        System.out.println("Subtraction Result: " + subtractionResult);
+        System.out.println("Division Result: " + divisionResult);
+
+        scanner.close();
+    }
+}
+51.1.3
+
+import java.util.Scanner;
+
+// Functional interface with a single abstract method
+interface IntOperation {
+    int operate(int x);
+}
+
+public class SquareNumber {
+    public static void main(String[] args) {
+        // Creating a Scanner object to take input from the user
+        Scanner scanner = new Scanner(System.in);
+
+        // Taking user input for a number
+      
+        int number = scanner.nextInt();
+
+        // Creating a lambda expression to square the input number
+        IntOperation square = (x) -> x * x;
+
+        // Applying the lambda expression to square the input number
+        int squaredNumber = square.operate(number);
+
+        // Printing the squared number to the console
+        System.out.println(squaredNumber);
+
+        // Closing the Scanner object
+        scanner.close();
+    }
+}
+
+
+52.1.1
+
+import java.util.Scanner;
+
+// Calculator interface
+interface Calculator {
+    int calculate(int a, int b);
+}
+
+public class CalculatorExample {
+    public static void main(String[] args) {
+        // Create Scanner object for user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Lambda expression for addition operation
+        Calculator addition = (a, b) -> a + b;
+
+        // Take input from user
+       
+        int input1 = scanner.nextInt();
+        
+        int input2 = scanner.nextInt();
+
+        // Close the Scanner
+        scanner.close();
+
+        // Calculate the result using the lambda expression
+        int result = addition.calculate(input1, input2);
+
+        // Output
+        System.out.println("Addition: " + result);
+    }
+}
+
+
+52.1.2
+
+import java.util.ArrayList;
+
+public class LambdaExpression {
+    public static void main(String[] args) {
+        // Creating an ArrayList
+        ArrayList<Integer> numbers = new ArrayList<>();
+        
+        // Adding elements to the ArrayList
+        numbers.add(120);
+        numbers.add(303);
+        numbers.add(308);
+        numbers.add(555);
+        
+        // Printing the original ArrayList
+        
+        for (Integer number : numbers) {
+            System.out.println(number);
+        }
+        
+        // Using lambda expression to print all odd elements
+        System.out.println("All odd elements displayed:");
+        boolean oddFound = false;
+        for (Integer number : numbers) {
+            if (number % 2 != 0) {
+                System.out.println(number);
+                oddFound = true;
+            }
+        }
+        if (!oddFound) {
+            System.out.println("Empty");
+        }
+    }
+}
+52.1.3
+
+import java.util.Scanner;
+
+@FunctionalInterface
+interface StringTransformer {
+    String transform(String str);
+}
+
+public class StringMain {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Implementation using lambda expression to convert string to uppercase
+        StringTransformer uppercaseTransformer = str -> str.toUpperCase();
+
+        // Take input from the user
+        
+        String input = scanner.nextLine();
+
+        // Transform the input string to uppercase
+        String transformed = uppercaseTransformer.transform(input);
+
+        // Output the transformed string
+        
+        System.out.println(transformed);
+
+        scanner.close();
+    }
+}
+
+
+53.1.1
+
+
+value4 declared in statement 4 is called a constant.
+
+53.1.2
+
+option 3 and 5 are correct
+
+53.2.1
+option 1 is correct 
+
+54.1.1
+4th option
+
+54.1.2
+import java.util.Scanner;
+
+public final class ImmutablePoint {
+    private final double x;
+    private final double y;
+
+    public ImmutablePoint(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
+    }
+
+    public double calculateDistance(ImmutablePoint other) {
+        return Math.sqrt(Math.pow(other.x - this.x, 2) + Math.pow(other.y - this.y, 2));
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Taking input for the first point
+        System.out.print("x-coordinate for first point: ");
+        double x1 = scanner.nextDouble();
+        System.out.print("y-coordinate for first point: ");
+        double y1 = scanner.nextDouble();
+        ImmutablePoint firstPoint = new ImmutablePoint(x1, y1);
+
+        // Taking input for the second point
+        System.out.print("x-coordinate for second point: ");
+        double x2 = scanner.nextDouble();
+        System.out.print("y-coordinate for second point: ");
+        double y2 = scanner.nextDouble();
+        ImmutablePoint secondPoint = new ImmutablePoint(x2, y2);
+
+        // Calculating and printing the distance
+        System.out.println("Distance: " + firstPoint.calculateDistance(secondPoint));
+
+        scanner.close();
+    }
+}
+54.2.1
+2 and 5 are correct 
+55.1.1
+2nd
+
+55.2.1
+2nd
+
+
+56.1.1
+3rd
+
+56.1.2
+all are correct
+
+56.2.1
+4th
+
+56.3.1
+public class TimingExample {
+    public static void main(String[] args) {
+        // Start the time measurement
+        long startTime = System.currentTimeMillis();
+
+        // Calculate the sum of numbers from 0 to 999
+        int sum = 0;
+        for (int i = 0; i < 1000; i++) {
+            sum += i;
+        }
+
+        // End the time measurement
+        long endTime = System.currentTimeMillis();
+
+        // Calculate the time taken in milliseconds
+        long timeTaken = endTime - startTime;
+
+        // Print the results
+        
+        System.out.println("Time taken in milliseconds = " + timeTaken);
+    }
+}
+
+57.1.1
+1st option
+
+57.1.2
+import java.util.Date;
+
+public class DateExample {
+    public static void main(String[] args) {
+        // Create a new Date object representing the current time
+        Date currentDate = new Date();
+
+
+        // Get the current time in milliseconds
+        long currentTime = currentDate.getTime();
+
+        
+
+        // Sleep for 1 second
+        System.out.println("Sleeping for 1 second...");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("This thread resumed after 1 or more seconds");
+
+
+
+        
+       
+    }
+}
+
+
+
+
+
+
+
+57.1.3
+
+import java.util.*;
+import java.text.*;
+
+public class DateFormatInJapan {
+    public static String getJapaneseShortDate(Date date) {
+        Locale japanLocale = Locale.JAPAN;
+        DateFormat df = DateFormat.getDateInstance(DateFormat.SHORT, japanLocale);
+        return df.format(date);
+    }
+
+    public static void main(String[] args) {
+        // Sample Test Case
+        int year = Integer.parseInt(args[0]);
+        int month = Integer.parseInt(args[1]) - 1; // Month in Calendar starts from 0
+        int day = Integer.parseInt(args[2]);
+
+        Calendar cal = Calendar.getInstance();
+        cal.set(year, month, day);
+        Date date = cal.getTime();
+
+        String formattedDate = getJapaneseShortDate(date);
+        System.out.println("Oct 2, 1869 in Japan is: " + formattedDate);
+    }
+}
+57.1.4
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class SimpleDateFormatDemo {
+    public static void main(String[] args) {
+        // Define the date text
+        String dateText = "15-08-1947";
+        
+        // Define the pattern for parsing
+        String pattern = "dd-MM-yyyy";
+        
+        // Create a SimpleDateFormat object with the pattern
+        SimpleDateFormat sdf = new SimpleDateFormat(pattern);
+        
+        try {
+            // Parse the date text to a Date object
+            Date parsedDate = sdf.parse(dateText);
+            
+            // Print the parsed date
+            System.out.println("parsedDate : " + parsedDate);
+        } catch (ParseException e) {
+            System.out.println("Error occurred while parsing the date: " + e.getMessage());
+        }
+    }
+}
+
+57.1.5
+5th option
+57.1.6
+
+import java.time.*;
+import java.time.temporal.TemporalAdjusters;
+
+public class LocalDateDemo {
+    public static void main(String[] args) {
+        // Java's birthday was on 1995-05-23
+        LocalDate javaBirthday = LocalDate.of(1995, Month.MAY, 23);
+
+        // The cake was cut on next Sunday: 1995-05-28
+        LocalDate nextSunday = javaBirthday.with(TemporalAdjusters.next(DayOfWeek.SUNDAY));
+
+        System.out.println("Java's birthday was on " + javaBirthday + ", and the cake was cut on next Sunday: " + nextSunday + ".");
+    }
+}
+
+57.1.7
+3rd
+
+
+58.1.1
+1st option
+
+58.2.1
+3rd
+
+59.1.1
+1st option
