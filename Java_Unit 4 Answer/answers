@@ -16,7 +16,7 @@ Before any constructor is called, every time an instance of the class is created
 import java.util.Scanner; 
 
 class Person {
-    private String name;
+    private String  name;
     private int age;
     private String address;
 
