@@ -2,7 +2,6 @@ Functional Interfaces:
 
 Key points:
 
-
 Functional interface contains only one abstract method. 
 Functional interface can have only one functionality to exhibit. 
 Functional interface can have any number of default methods. 
@@ -39,7 +38,7 @@ class FunctionalInterface {
         	 }
          }).start();
     }
-}
+} 
 
 
 Resultant output: 
