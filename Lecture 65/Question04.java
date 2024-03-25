@@ -6,7 +6,7 @@ Predicate:
 
 Abstract method test in Predicate interface gives a Boolean value as a result for the specified argument. 
 
-Definition is: 
+Definition is:  
 
 public interface Predicate{
   public boolean test(TMT T);
