@@ -81,5 +81,6 @@ public class Lambda2Arguments {
         Fobj.Message("Lets Code");
 
     }
+
 }
 
