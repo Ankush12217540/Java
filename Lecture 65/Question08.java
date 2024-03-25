@@ -1,5 +1,6 @@
 Type the code given below in Lambda2Arguments.java file to be well versed with the concept of implementing lambda expressions with multiple arguments.
-Key points:
+Key points: 
+
 
 The body of a lambda expression can contain zero, one or more statements.
 When there is a single statement curly brackets are not mandatory and the return type of the anonymous function is the same as that of the body expression.
