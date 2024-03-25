@@ -1,7 +1,7 @@
 The Queue interface in collection hierarchy represents a real-world queue (meaning a line of waiting people or vehicles).
 
 In the above statement, attention should be paid to the word waiting.
-
+ 
 Let us consider some people standing in queue at a movie ticket counter. The person who enters the queue first gets a chance to buy the tickets first. While the person in the front of the queue is being served, the remaining persons are waiting.
 
 In programming, we use a Queue to store elements which usually need to be processed in the order they have been inserted into the Queue, i.e: first-in-first-out (FIFO).
