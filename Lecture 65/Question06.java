@@ -4,7 +4,7 @@ Lambda expression as shown above consists of three things argument list followed
 
 
 
-Various types of Lambda expressions are:
+Various types of Lambda expressions are: 
 
 Zero parameter:() -> System.out.println("Zero parameter lambda");
 One parameter:–(p) -> System.out.println("One parameter: " + p);
