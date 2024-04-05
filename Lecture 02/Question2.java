@@ -1,4 +1,4 @@
-JRE stands for Java Runtime Environment.
+JRE stands for Java Runtime Environment. 
 
 Java Runtime Environment which is commonly referred JRE, is the essential piece of software which is required to run any Java program on an operating system.
 
