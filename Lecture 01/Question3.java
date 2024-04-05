@@ -1,4 +1,4 @@
-ava programming language was created by a company called Sun Mircosystems (which is now part of Oracle Inc) in the year 1995.
+java programming language was created by a company called Sun Mircosystems (which is now part of Oracle Inc) in the year 1995.
 
 Click here to learn more about the history of Java.
 
