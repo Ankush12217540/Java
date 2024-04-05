@@ -1,6 +1,6 @@
 A Java program is usually composed of multiple lines. Each line is composed of one or a combination of the below three input elements:
 Comments
-Whitespace characters
+Whitespace characters 
 Tokens
 A comment is a sequence of non-executable characters. There are three types of comments in Java which we will learn later.
 
