@@ -1,4 +1,4 @@
-Language is a means to communicate or interact.
+Language is a means to communicate or interact. 
 
 For example, in this learning program, we are using English as the language to communicate or provide instructions to the learner.
 
