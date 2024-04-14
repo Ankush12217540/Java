@@ -3,7 +3,7 @@ CodeTantra unit 5 solution
 
 
  
-Ques
+Ques 
 
 Soln:-
  package q11317;
