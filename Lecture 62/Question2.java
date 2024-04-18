@@ -4,7 +4,7 @@ For example, if we want to write a method which accepts two collections and retu
 class Util {
 	public static <T>T largerCollection(T collection1, T collection2) {
 		... 
-	}
+	} 
 }
 In the above code, the actual type argument passed into T can be a String or an Integer or any other type. There will be no enforcement by the compiler that it should be an instance of type Collection.
 
