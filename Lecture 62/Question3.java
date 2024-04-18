@@ -2,8 +2,8 @@ The question mark character ? is called the wildcard. It represents an unknown t
 
 unbounded wildcard - eg: List<?>, represents a List of unknown type. We use such code when we want to work only with the methods in List interface without the knowledge of the type of elements it stores.
 upper bounded wildcard - eg: List<? extends A>, represents a List whose elements are of type A or a subtype of A. (Note extends is used for both a class and an interface).
-lower bounded wildcard - eg: List<? super A>, represents a List whose elements are of type A, or a super type of A. (Note super is used for both a class and an interface).
-Note the below thumb rules while choosing to use wildcards:
+lower bounded wildcard - eg: List<? super A>, represents a List whose elements are of type A, or a super type of A. (Note super is used for both a class and an interface).  
+Note the below thumb rules while choosing to use wildcards: 
 unbounded wildcard - should be used when we want to access only the methods in Object class on the parameters passed.
 upper bounded wildcard - should be used as parameters when we want to send data to methods as parameters. It can be thought of as an in parameter. It serves a read-only copy of data which cannot be manipulated.
 lower bounded wildcard - should be used as parameters when we want to retrieve processed data from methods via parameters. It can be thought of as an out parameter. It allows for data manipulation.
