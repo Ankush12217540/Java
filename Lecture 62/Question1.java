@@ -1,5 +1,5 @@
 We can write custom generic classes/interfaces where the complete class/interface is parameterized. For example:
-class A<T> {
+class A<T> { 
 	private T t;
 	public A(T t) {
 		this.t = t;
