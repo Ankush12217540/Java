@@ -1,7 +1,7 @@
 72.1.1 
 
 package q11391;
-import java.util.*; 
+import java.util.*;  
 
 public class SimpleArrayListDemo {
     public static void main(String[] args) {
