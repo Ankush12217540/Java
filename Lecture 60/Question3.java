@@ -5,10 +5,10 @@ The properties file can have any extension, however .properties or .props are co
 A properties file usually stores a single property mapping (propertyName -> propertyValue [also called] key -> value) on a single line.
 
 The mappings can be in any of the formats give below:
-key=value
+key=value 
 key = value
 key:value
-key value
+key value 
 If the key contains a space, such a space should be escaped using a backslash \. For more rules on the contents of a properties file click here.
 
 The Properties class in Java is used to hold such key-value pairs in a Map like structure.
