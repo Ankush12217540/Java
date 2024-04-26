@@ -4,7 +4,7 @@ HashSet internally uses a HashMap to provide all the functionality.
 
 HashSet has 4 constructors.
 HashSet() - the default constructor creates an empty HashSet with initialCapacity as 16 and a default load factor of 0.75
-HashSet(int initialCapacity) - it creates an empty HashSet with the given initial capacity and a default load factor of 0.75.
+HashSet(int initialCapacity) - it creates an empty HashSet with the given initial capacity and a default load factor of 0.75. 
 HashSet(int initialCapacity, float loadFactor) - it creates an empty HashSet with the given initial capacity and load factor.
 HashSet(Collection c) - it creates a HashSet with elements already present in the Collection c passed as parameter. Note that duplicates if present in the collection c will be automatically removed in the set which is being created.
 HashSet internally uses a HashMap instance to store the elements as keys in that HashMap. Hence, the meaning and behaviour of initialCapacity and load factor in a HashSet are the same as in a HashMap.
