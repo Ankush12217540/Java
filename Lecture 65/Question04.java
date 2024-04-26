@@ -11,7 +11,7 @@ Definition is:
 public interface Predicate{
   public boolean test(TMT T);
 }
-
+ 
 
 BinaryOperator: 
 
