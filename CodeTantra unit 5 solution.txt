@@ -14,7 +14,7 @@ Soln:-
  int result =  number / divisor;
  System.out.println("result  =  " +  result);}}
  
- 
+   
  
  
 
