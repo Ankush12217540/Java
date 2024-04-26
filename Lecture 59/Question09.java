@@ -1,6 +1,6 @@
 Write a program to understand how to remove an element in the Set using the remove method. Create a class SetDemo with a main method and insert the numbers from one to five and remove the elements two and three from the set and print the result.
 
-
+ 
 
 import java.util.*;
 public class SetDemo {
