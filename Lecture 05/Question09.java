@@ -6,7 +6,7 @@ Combine all the binary digits.
 Separate the binary digits into groups of 3 bits each from right to left.
 Ensure the left most group has 3 bits by prefixing necessary zeros.
 Find the octal equivalent of each group and combine the resultant digits together.
-For example, hexadecimal number 0x5AF6 is converted into binary as
+For example,  hexadecimal number 0x5AF6 is converted into binary as
 
 Hex Number    ->    5    A    F    6
 Binary Number ->  0101 1010 1111 0110
