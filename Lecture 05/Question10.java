@@ -2,7 +2,7 @@ The numbering system which uses base-16 is called hexadecimal system (or simply 
 
 In binary (base-2) a total of 2 digits (0 and 1) are used to represent a number of any size (magnitude) and in octal (base-8) a total of 8 digits (0 to 7) are used.
 
-Similarly in hexadecimal system (base-16), a total of 16 digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F) are used to represent a number of any size (magnitude).
+Similarly in hexadecimal system (base-16), a total of 16 digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F) are used to represent a number of any size (magnitude). 
 
 The highest digit in hex is (F)16. The number (F)16 in binary is represented as (1111)2. You will notice that we are using four binary digits (bits) to represent the highest hexadecimal digit.
 
