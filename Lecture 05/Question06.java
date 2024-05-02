@@ -2,7 +2,7 @@ The numbering system which uses base-8 is called Octal System. A base (also call
 For example, Zero is represented as 0, where
 0 = (0 * 80) = (0 * 1)
 Similarly 1, 2 ...up to 7 One (1):
-1 = (1 * 80) = (1 * 1)
+1 = (1 * 80) = (1 * 1). 
 2 = (2 * 80) = (2 * 1)
 ...
 7 = (7 * 80) = (7 * 1)
