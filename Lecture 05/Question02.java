@@ -3,7 +3,7 @@ The numbers that we use regularly in our daily life, like: 0, 1, 2, 3,...2333, 9
 It is called base-10 because it uses 10 unique digits from 0 to 9 to represent any number in this number system.
 
 A base (also called radix) is the number of unique digits or symbols (including 0) used to represent a given number.
-
+ 
 In Decimal System (which is base-10) a total of 10 digits (0, 1, 2, 3, 4, 5, 6, 7, 8 and 9) are used to represent a number of any size (magnitude).
 a teacher 
 For example, Three Hundred and Twenty One is represented as 321, where
