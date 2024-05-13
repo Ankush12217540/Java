@@ -2,7 +2,7 @@ A Java program is usually composed of multiple lines. Each line is composed of o
 Comments
 Whitespace characters 
 Tokens
-A comment is a sequence of non-executable characters. There are three types of comments in Java which we will learn later.
+A comment is a sequence of non-executable characters. There are three types of comments in Java which we will learn later. 
 
 In Java, the whitespace characters are:
 Space ’ ’ – (ASCII SP) produced by pressing spacebar
