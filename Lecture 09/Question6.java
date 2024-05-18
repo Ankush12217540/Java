@@ -5,7 +5,7 @@ byte    Byte          Byte.valueOf(String s)
 short   Short         Short.valueOf(String s)
 int     Integer       Integer.valueOf(String s)
 float   Float          Float.valueOf(String s)
-double  Double        Double.valueOf(String s)
+double  Double         Double.valueOf(String s)
 long    Long          Long.valueOf(String s)All the above wrapper classes present for the number types contain a useful method called valueOf(), which converts a string to an instance of that number type.
 
 See and retype the below code to understand the usage of the valueOf() method in the wrapper classes.
