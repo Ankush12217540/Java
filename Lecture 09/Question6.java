@@ -1,4 +1,4 @@
-The below table shows the primitive types and their corresponding wrapper classes in Java:
+ The below table shows the primitive types and their corresponding wrapper classes in Java:
 char    Character     Number Types
 ==================================
 byte    Byte          Byte.valueOf(String s)  
