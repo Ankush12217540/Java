@@ -1,7 +1,7 @@
 The below table shows the primitive types and their corresponding wrapper classes in Java:
 char    Character     Number Types
 ==================================
-byte    Byte          Byte.valueOf(String s) 
+byte    Byte          Byte.valueOf(String s)  
 short   Short         Short.valueOf(String s)
 int     Integer       Integer.valueOf(String s)
 float   Float          Float.valueOf(String s)
