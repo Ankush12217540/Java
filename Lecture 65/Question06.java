@@ -2,7 +2,7 @@ Argument list Arrow token Body of lambda expression
 
 Lambda expression as shown above consists of three things argument list followed by arrow token and body of lambda expression.
 
-
+ 
 
 Various types of Lambda expressions are: 
 
