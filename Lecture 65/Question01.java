@@ -4,7 +4,7 @@ import java.io.*;
 // lambda expressions to implement a user defined functional interface.//@FunctionalInterface you can use here just to tell compiler that only one abstract interface is defined// except this annotation also code works in similar way
 interface Cube{  
 int Compute(int X);
-}
+} 
  
 class UserdefinedFunctionalInterface{
 	 public static void main(String args[]){
