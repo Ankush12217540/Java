@@ -9,7 +9,7 @@ Expected Output:
 555
 All·odd·elements·displayed
 303
-555
+555 
 
  
 
