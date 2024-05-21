@@ -5,7 +5,7 @@ import java.io.*;
 interface Cube{  
 int Compute(int X);
 }
-
+ 
 class UserdefinedFunctionalInterface{
 	 public static void main(String args[]){
 		 Scanner S = new Scanner(System.in);
