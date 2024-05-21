@@ -12,7 +12,7 @@ All·odd·elements·displayed
 555 
 
  
-
+ 
 Answer
 
 // Complete below given code as per the problem statement
