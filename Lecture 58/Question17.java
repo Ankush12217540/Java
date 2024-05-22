@@ -5,7 +5,6 @@ Cmd Args : This is a good day
 {a=1, This=1, is=1, good=1, day=1}
 
 
-
 package q24101;
 import java.util.*;
 public class WordcountDemo {
