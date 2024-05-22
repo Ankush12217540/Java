@@ -1,6 +1,6 @@
 A Map represents a collection of key-value pairs.
 
-In a Map one key is mapped to at most one value.
+In a Map one key is mapped to at most one value. 
 
 Map does not allow duplicate keys, but the values can be duplicated.
 
