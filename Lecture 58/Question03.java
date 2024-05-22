@@ -1,5 +1,5 @@
 Whenever we want to store large amount of data (such that each date item can be uniquely identified by an id or a key) and also be able to retrieve the data quickly, we use a HashMap.
-
+ 
 HashMap has 4 constructors.
 HashMap() - the default constructor creates an empty HashMap with initialCapacity as 16 and a default load factor of 0.75
 HashMap(int initialCapacity) - it creates an empty HashMap with the given initial capacity and a default load factor of 0.75.
