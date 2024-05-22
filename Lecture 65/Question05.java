@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.function.Predicate;
 
 class PredicateInterface{
-	
+	 
 	public static void main(String args[]){
 
 		List<String> Words = Arrays.asList("Ready","To","Visit","Coders","Den","CodeTantriks");
