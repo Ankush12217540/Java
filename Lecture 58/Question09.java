@@ -1,7 +1,7 @@
 A HashMap implementation provides a constant-time performance for the put and get methods.
 
 put(K key, V value): Add the specified value with the specified key in the map. If the map previously contained a mapping for the key, the old value is replaced with the new one.
-
+ 
 Write a program to understand how the (key, value) pair is inserted into HashMap using the method put.
 
 Create a class HashMapMethodsDemo with a main method. Create an instance of the HashMap and add the given (key, values) into the map and print the result. The (key, values) are
