@@ -6,6 +6,6 @@ public class PrintHello {
 		String text3 = text1 + text2;
 		String text4 = ", I am learning Java";
 		String text5 = text3 + text4; 
-		System.out.println("text5 = " + text5);  
+		System.out.println("text5 = " + text5);   
 	}
 }  
